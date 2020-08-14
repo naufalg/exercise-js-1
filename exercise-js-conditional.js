@@ -4,8 +4,15 @@
 // Contoh: Jika saya sebagai HR maka tugas saya adalah melakukan rekrutmen untuk calon pegawai baru
 
 // #### JAWABAN ####
+const saya;
 if (saya == "HR") {
     console.log("saya melakukan rekrutmen calon pegawai baru");
+} else if (saya =="dev team") {
+    console.log("kerja ngoding bagaikan banting tulang kuda");
+} else if (saya =="sales") {
+    console.log("risolnya kakak..");
+} else if (saya == "investor blue chip") {
+    console.log("auto tajir");
 } else {
     console.log("anda nganggur");
 }
@@ -20,8 +27,10 @@ if (a>b) {
     console.log("a lebih besar dari b dengan nilai " + a);
 } else if (a<b) {
     console.log("b lebih besar dari a dengan nilai " + b);
-} else {
+} else if (a==b){
     console.log("nilai a dan b sama besar")
+} else {
+    console.log("salah input data")
 }
 
 // #### SOAL ####
@@ -81,5 +90,9 @@ switch (input) {
         console.log("Karakter berjalan kekiri");
         break;
     default:
-        console.log("Salah input");
+        console.log("Salah input data");
 }
+
+
+
+// #### by: Naufal Ghifari (2020/8/14) ####
