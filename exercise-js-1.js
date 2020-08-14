@@ -52,6 +52,25 @@ alert("Terima kasih sudah mengisi form\n Nama anda " + namaUser + " dan berasal 
 // 5. Buat variabel untuk menampung data diri yang telah dibuat pada nomor 1. Lalu panggil dan tampilkan dengan menggunakan console log
 
 // #### JAWABAN ####
+const nama = "Naufal Ghifari";
+const asalDaerah = "Bandung";
+const tanggalLahir = "7 Maret 1997"
+const umur = 23;
+const posisiPekerjaan = "Web Developer"
+
+const user = {
+  name: nama,
+  origin: asalDaerah,
+  birthdate: tanggalLahir,
+  age: umur,
+  job: posisiPekerjaan
+}
+
+console.log(user.name); //output: Naufal Ghifari
+console.log(user.origin); //output: Bandung
+console.log(user.birthdate); //output: 7 Maret 1997
+console.log(user.age); //output: 23
+console.log(user.job); //output: Web Developer
 
 
 // #### SOAL ####
